@@ -13,4 +13,4 @@ eureka:
 mybatis:
   type-aliases-package: com.imooc.order.dao
   mapper-locations: mappers/*.xml
-env: test5
+env: test1
