@@ -1,6 +1,11 @@
 spring:
   application:
     name: order
+  rabbitmq:
+    host: 47.105.124.62
+    port: 5672
+    username: guest
+    password: guest
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/springcloud_shell?useUnicode=true&characterEncoding=utf-8
