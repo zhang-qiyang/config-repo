@@ -1,7 +1,7 @@
 zuul:
   routes:
     path: /myProduct/**
-      service-id: PRODUCT
+      serviceId: PRODUCT
       #将cookie传递进去，此处设置为空
       sensitiveHeaders:
   #排除某些路由
