@@ -1,9 +1,10 @@
 zuul:
   routes:
-    path: /myProduct/**
-      serviceId: PRODUCT
+    myPath:
+      path: /myProduct/**
+        serviceId: product
       #将cookie传递进去，此处设置为空
-      sensitiveHeaders:
+        sensitiveHeaders:
   #排除某些路由
   ignored-patterns:
   - /**/product/listForOrder
